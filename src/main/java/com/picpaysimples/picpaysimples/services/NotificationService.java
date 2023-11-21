@@ -26,5 +26,7 @@ public class NotificationService {
 			System.out.println("Erro ao enviar notificação.");
 			throw new Exception("Serviço de notificação indisponível.");
 		}
+		
+		System.out.println("Notificação enviada para o usuário.");
 	}
 }
